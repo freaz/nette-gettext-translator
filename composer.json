@@ -1,8 +1,8 @@
 {
-	"name": "freaz/gettext-translator",
+	"name": "freaz/nette-gettext-translator",
 	"description": "Translator for Nette (PHP framework).",
 	"keywords": ["nette", "translator", "gettext"],
-	"homepage": "https://github.com/freaz/gettext-translator",
+	"homepage": "https://github.com/freaz/nette-gettext-translator",
 	"license": ["BSD-3-Clause"],
 	"authors": [
 		{
