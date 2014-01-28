@@ -1,8 +1,8 @@
 {
-	"name": "positivezero/gettext-translator",
+	"name": "freaz/gettext-translator",
 	"description": "Translator for Nette (PHP framework).",
 	"keywords": ["nette", "translator", "gettext"],
-	"homepage": "https://github.com/positivezero/gettext-translator",
+	"homepage": "https://github.com/freaz/gettext-translator",
 	"license": ["BSD-3-Clause"],
 	"authors": [
 		{
@@ -16,6 +16,10 @@
         {
             "name": "Vojtěch Kijenský",
             "homepage": "http://www.positivezero.co.uk"
+        },
+        {
+        	"name": "Ondřej Musil",
+            "homepage": "http://ondrejmusil.cz"	
         }
 	],
 	"autoload": {

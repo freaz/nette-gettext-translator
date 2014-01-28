@@ -160,11 +160,12 @@ class Gettext extends Nette\Object implements Nette\Localization\ITranslator
 				&& isset($this->metadata[$this->dictionary[$message]['file']]['Plural-Forms'])
 		) {
 			$tmp = preg_replace('/([a-z]+)/', '$$1', "n=$form;" . $this->metadata[$this->dictionary[$message]['file']]['Plural-Forms']);
+			$plural = null;
 			eval($tmp);
 
 			$message = $this->dictionary[$message]['translation'];
 			if (!empty($message)) {
-				$message = (is_array($message) && $message_plural !== NULL && isset($message[$message_plural])) ? $message[$message_plural] : $message;
+				$message = (is_array($message) && $plural !== NULL && isset($message[$plural])) ? $message[$plural] : $message;
 			}
 
 		} else {
