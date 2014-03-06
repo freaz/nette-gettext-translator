@@ -23,9 +23,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "GettextTranslator\\": "src/"
-        }
+        "classmap": [ "src/" ]
     },
     "require": {
         "php": ">=5.3.0",
