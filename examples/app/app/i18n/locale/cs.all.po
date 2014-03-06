@@ -1,0 +1,32 @@
+# Gettext keys exported by GettextTranslator and Translation Panel
+# Created: 2014-03-06 11:22:53
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-03-06 11:22+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4 ? 1 : 2));\n"
+
+
+msgid "First name"
+msgstr "Jméno"
+
+msgid "Last name"
+msgstr "Příjmení"
+
+msgid "cat"
+msgstr[0] "kočka"
+msgstr[1] "kočky"
+msgstr[2] "koček"
+
+msgid "dog"
+msgstr[0] "pes"
+msgstr[1] "psi"
+msgstr[2] "psů"
+
+msgid "%s drunk %d beer"
+msgstr[0] "%s vypil %s pivo"
+msgstr[1] "%s vypil %d piva"
+msgstr[2] "%s vypil %d piv"
+

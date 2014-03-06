@@ -1,0 +1,17 @@
+{block content}
+    <p>
+        <h2>Latte</h2>
+        Normal gettext traslation: {_'cat'}.
+        <br/>
+        Plural translation: 1 {_'dog'}, 2 {_'dog', 2}, 3 {_'dog', 3}, 4 {_'dog', 4}, 5 {_'dog', 5}.
+        <br/>
+        With placeholders: {$placeholded1}
+        <br/>
+        With not replaced placeholders: {$placeholded2}
+    </p>
+
+    <p>
+        <h2>Form</h2>
+        {control exampleForm}
+    </p>
+{/block}
