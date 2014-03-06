@@ -25,7 +25,7 @@ class Panel extends Nette\Object implements Nette\Diagnostics\IBarPanel
 	/** @var Nette\Application\Application */
 	private $application;
 
-	/** @var GettextTranslator\Gettext */
+	/** @var Gettext */
 	private $translator;
 
 	/** @var Nette\Http\SessionSection */
