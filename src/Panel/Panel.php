@@ -191,7 +191,7 @@ class Panel extends Nette\Object implements Nette\Diagnostics\IBarPanel
 	 */
 	protected function getActiveFile($files)
 	{
-		if ($this->application == NULL) {
+		if ($this->application == NULL || $this->application->presenter == NULL) {
 			return;
 		}
 
